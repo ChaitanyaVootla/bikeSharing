@@ -9,5 +9,4 @@ pipelines:
       execution:
         onStart:
           - echo {{ .Values.isTestPipeline }}
-          - echo "demo"
         
